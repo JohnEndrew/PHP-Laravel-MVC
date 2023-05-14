@@ -61,7 +61,7 @@ body{
 
 }
 .conteudo-principal-escrito-titulo{
-    font-family: 'Righteous', cursive;
+    font-family: 'Arial', cursive;
     font-weight: 400;
     font-size: 64px;
     color:#F0FFF0;
@@ -154,11 +154,11 @@ a { color: inherit;
 }
 .button-acessar{
     text-decoration: none;
-    border-radius: 15px;
-    width: 150px;
+    border-radius: 10px;
+    width: 200px;
     box-shadow: 4px 5px 4px #132a3d;
-    font-size: 17px;
-    font-family: 'Sarala' sans-serif;
+    font-size: 20px;
+    font-family: 'Arial' sans-serif;
     border-color: #132a3d;
     background-color: #e6e6b8;
     color: #132a3d;
@@ -167,16 +167,16 @@ a { color: inherit;
 }
 .button-acessar:hover{
     text-decoration: none;
-    border-radius: 15px;
-    width: 150px;
+    border-radius: 10px;
+    width: 200px;
     box-shadow: 4px 5px 4px #132a3d;
-    font-size: 17px;
-    font-family: 'Sarala' sans-serif;
+    font-size: 20px;
+    font-family: 'Arial' sans-serif;
     border-color: #132a3d;
     background-color:#45968b;
-    color: #c1c1c2;
+    color: #f6f6f8;
     font-weight: 400;
-    transition: 1s;
+    transition: 2s;
     cursor: pointer;
 }
 
@@ -186,9 +186,8 @@ a { color: inherit;
 
 
 .titulo{
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
+    margin-top:20px;
+    text-align:center;
     font-size: 35px;
     font-weight: 400;
     color: #e6e6b8;
@@ -198,15 +197,15 @@ a { color: inherit;
 
 }
 .conteudo-contato{
-    height: 550px;
-    width: 400px;
+    height:90%;
+    width: auto;
     margin-top: 120px;
     margin-right: 20px;
     display: flex;
     align-items: center;
     background-color: #1e5a79;
     box-shadow: 4px 5px 4px #0b0d0e;
-    border-radius: 80px;
+    border-radius: 10px;
     justify-content: space-around;
 }
 .cad{
@@ -219,7 +218,7 @@ a { color: inherit;
     outline: none;
     border-radius: 10px;
     flex-direction:column;
-    width: 300px;
+    width: 400px;
     text-align: left;
     font-size: 14px;
     font-family: 'Sarala' sans-serif;
@@ -232,20 +231,21 @@ a { color: inherit;
 
 .contatos{
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     height: 25px;
     font-size: 14px;
     font-family: 'Sarala' sans-serif;
-    padding: 18px;
+    padding: 20px;
     margin-bottom: 8px;
     border:1px solid ;
-    background-color: #e5e6e7;
+    background-color: #fdfeff;
+    
 
 }
 .mensagem{
     outline:none;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     height: 150px;
     font-size: 14px;
     font-family: 'Sarala' sans-serif;
@@ -289,7 +289,8 @@ a { color: inherit;
 }
 
 .imagem21{
-    width: 95%;
+    margin-top: 100px;
+    width: 90%;
     height: 95%;
     align-items: center;
     flex-direction: column;
@@ -300,7 +301,7 @@ a { color: inherit;
 /*login*/
 
 .conteudo-principal-escrito-titulo-login{
-    font-family: 'Righteous', cursive;
+    font-family: 'Arial', cursive;
     font-weight: 400;
     font-size: 64px;
     color:#e6e6b8;
@@ -314,10 +315,11 @@ a { color: inherit;
 }
 
 .conteudo-principal-escrito-titulo1{
-    font-family: 'Righteous', cursive;
+    font-family: 'Arial Black', cursive;
     font-weight: 400;
     font-size: 40px;
     color:#18232b;
+    
 }
 .conteudo-contato-login{
     height: 280px;
@@ -363,14 +365,14 @@ a { color: inherit;
     color: #e6e6b8;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.botaogoogle{
-    margin-top: -30px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    outline: none;
-}
 
 .btn1{
     margin-right: 4px;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
 }

@@ -10,10 +10,11 @@
         <br>
         <input name="email" value="{{old('email')}}" type="text" placeholder="E-mail" class="" />
         <br>
-        <select name= "motivo_contatos" class="contatos">
+        <select name= "motivo_contato" class="contatos">
         </div>
              <option value="Qual o motivo do contato?"></option>
-             <option value="1">Compra/Teste</option>
+             <option value="1">Realizar Teste!</option>
+             <option value="1">Compra</option>
              <option value="2">Sugestão</option>
              <option value="3">Reclamação</option>
              <option value="4">Informação</option>
@@ -24,3 +25,6 @@
             <br>
             <button class="enviar-contato" type="submit">ENVIAR</button>
             </form>
+            
+            <p class="texto">Obrigado!
+            <br>Nosso tempo médio para resposta é 24Horas.</p><br>

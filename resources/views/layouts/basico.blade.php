@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=" Sistema Empresarial."> 
-    <title>System Tech - @yield('titulo')</title>
+    <title>Maltec - @yield('titulo')</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css')}}">
 </head>
     <body>
